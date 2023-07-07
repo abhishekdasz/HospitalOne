@@ -1,0 +1,42 @@
+#abouts
+{
+    background:#eee;
+    height: 100vh;
+}
+.abouts-heading
+{
+    padding: 10px;
+    font-size: 38px;
+    text-align: center;
+    color: #eee;
+}
+.about{
+    /* background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%); */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about-content
+  {
+    padding: 40px;
+    margin-right: 90px;
+    max-width: 580px;
+  }
+  .about .about-content .box{
+    margin:3rem 0;
+  }
+  
+  .about .about-content .box h3{
+    font-size: 2.2rem;
+  }
+  
+  .about .about-content .box h3 i{
+    padding: 0 1rem;
+    color:#0188DF;
+  }
+  
+  .about .about-content .box p{
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    color:#666;
+  }

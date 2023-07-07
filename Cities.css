@@ -1,0 +1,58 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#home
+{
+    height: 100vh;
+}
+#home .cities
+{
+    display: flex;
+    margin-left: 70px;
+    position: absolute;
+    
+}
+ .city-1
+{
+    border: 1px solid black;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.city-1:hover
+{
+    transform: translateY(-10px);
+    border-color: blue;
+}
+#home .city-1 img
+{
+    width: 250px;
+    border-radius: 130px
+}
+#home .city-1 .city-content
+{
+    text-align: center;
+}
+
+.sidebar
+{
+    position: absolute;
+    margin-top: 150px;
+    right: 0;
+    cursor: pointer;
+}
+#home .City-heading
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#home .City-heading h1
+{
+    font-size: 47px;
+}

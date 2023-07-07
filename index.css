@@ -1,0 +1,203 @@
+/* Home Page starts here*/
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background: #c3f5ee;
+}
+/* .home
+{
+    background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
+} */
+
+.bgg
+{
+    position: absolute;
+}
+.bgg img
+{
+    width: 1519px;
+    z-index: -5;
+    margin-top: 30px;
+    margin-left: -22px;
+}
+
+.bgg-2
+{
+    position: absolute;
+    z-index: 2;
+}
+.bgg-2 img
+{
+    position: absolute;
+    width: 1519px;
+    z-index: -5;
+    margin-top: 85px;
+}
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 324deg, #f9fffe 10%, #24cca9 100%);
+    /* clip-path: circle(765px at left 500px); */
+}
+.circle-2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #295280;
+    clip-path: circle(24% at 20% 133%);
+    z-index: -1;
+}
+.page-1
+{
+    display: flex;
+    height: 100vh;
+}
+.mid
+{
+    position: absolute;
+    bottom: 85%; 
+    width: 100vh;
+    height: 100vh;
+    background: linear-gradient(#ff469f, #ff6062);
+    z-index: -1;
+    border-radius: 50%;
+    margin-left: 1000px;
+}
+
+.mid2
+{
+    position: absolute;
+    /* bottom: 0;*/
+    top: 93%; 
+    width: 100vh;
+    height: 100vh;
+    margin-right: 700px;
+    background: linear-gradient(#ff469f, #ff6062);
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.leftside
+{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+}
+.leftside .content
+{
+    margin-top: 230px;
+    margin-left: 140px;
+    max-width: 550px;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.leftside h2
+{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+    animation-delay: 0.5s;
+}
+.leftside h5
+{
+    font-size: 65px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#ff469f, #6077ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation-delay: 0.5s;
+}
+.leftside h3
+{
+    font-size: 28px;
+
+    animation-delay: 1s;
+}
+.leftside button
+{
+    width: 160px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right,#c5b3d1, #3030d3);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.button a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.social
+{
+    position: absolute;
+    z-index: 1;
+    margin-top: 335px;
+}
+.social img
+{
+    width: 30px;
+    margin-bottom: 35px;
+    margin-left: 21px;
+}
+.social .li-1
+{
+    animation-delay: 2.2s;
+}
+.social .li-2
+{
+    animation-delay: 2.4s;
+}
+.social .li-3
+{
+    animation-delay: 2.6s;
+}
+.rectangle
+{
+    width: 30px;
+    height: 44%;
+    background-image: linear-gradient( 135deg,#F067B4  20%, #f1a8d1 100%);
+    position: absolute;
+    left: 75px;
+    top: 253px;
+    z-index: 1;
+    border-radius: 3px;
+}
+.rightside
+{
+    width: 55%;
+}
+
+.rightside img
+{
+    width: 35%;
+    margin-top: 174px;
+    margin-left: 208px;
+    position: absolute;
+    z-index: 2;
+
+    animation-delay: 1.75s;
+}
+/* Home Page ends here*/

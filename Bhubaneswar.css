@@ -1,0 +1,114 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0
+}
+.hospital-1
+{
+    display: flex;
+}
+.hospital-1 .img
+{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.hospital-1 .img img
+{
+    width: 360px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.hospital-1 .content
+{
+    margin-top: 24px;
+}
+.hospital-1 .content img
+{
+    width: 15px;
+}
+.hospital-1 .content .top-doctors
+{
+    display: flex;
+}
+.hospital-1 .content .hospital-location img
+{
+    width: 15px;
+}
+.hospital-1 .content p, pre
+{
+    margin: 2px;
+}
+.hospital-1 .content b
+{
+    font-weight: 500;
+}
+.hospital-1 .content .top-doctors .dr-1
+{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.hospital-1 .content .dr-1
+{
+    display: flex;
+    border: 1px solid #e3d6d6;
+    border-radius: 10px;
+
+    height: 110px;
+    width: 264px;
+    cursor: pointer;
+}
+.hospital-1 .content .dr-1:hover
+{
+    border-color: #199FD9;
+}
+.hospital-1 .content .dr-1 .dr-1-content .dr-name
+{
+    color: black;
+}
+.hospital-1 .content .dr-1 .dr-1-content
+{
+    padding-top: 20px;
+}
+.hospital-1 .content .dr-1 .dr-1-content p
+{
+    color: grey;
+}
+.hospital-1 .content .dr-1 img
+{
+    width: 50px;
+    border-radius: 100px;
+
+    padding-left: 10px;
+    padding-top: 28px;
+    padding-right: 20px;
+}
+.hospital-1 .content .ratings
+{
+    display: flex;
+    padding: 12px;
+    padding-top: 40px;
+}
+.hospital-1 .content .ratings img
+{
+    width: 35px;
+}
+.hospital-1 .content .ratings .ratings-content
+{
+    margin-top: 13px;
+}
+.hospital-1 .content .ratings .ratings-content button
+{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 18px;
+    margin-left: -22px;
+    background-color: #199FD9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

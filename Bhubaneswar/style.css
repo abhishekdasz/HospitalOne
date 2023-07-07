@@ -1,0 +1,442 @@
+/* Navbar starts here */
+.navbar
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar .logo
+{
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.navbar .logo img
+{
+    width: 120px;
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li
+{
+    /* width: 120px; */
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.navbar ul a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 13px;
+}
+
+.navbar .menus ul li a:hover
+{
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+}
+
+.navbar .menus ul li .subMenu-1
+{
+    display: none;
+}
+.navbar .menus ul li:hover .subMenu-1
+{
+    display: block;
+    position: absolute;
+    background: black;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.navbar .menus ul li:hover .subMenu-1 ul
+{
+    display: block;
+}
+
+.navbar .menus ul li:hover .subMenu-1 ul li
+{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+}
+
+.navbar .menus ul li:hover .subMenu-1 ul li :last-child
+{
+    border-bottom: none;
+}
+
+.navbar .menus ul li:hover .subMenu-1 ul li a:hover
+{
+    background: none;
+    color: seagreen;
+}
+
+
+
+
+
+.navbar .menus ul li .subMenu-1 .subMenu-2
+{
+    display: none;
+}
+.navbar .menus .subMenu-1 ul li:hover .subMenu-2
+{
+    display: block;
+    position: absolute;
+    background: black;
+
+    margin-top: -40px;
+    margin-left: 120px;
+}
+.navbar .menus .subMenu-1 ul li:hover .subMenu-2 ul li
+{
+    width: 140px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+}
+/* Navbar ends here */
+
+.btn-1 button {
+    border-radius: 5px;
+    padding: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #295366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+.btn-1 button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* counter section starts here */
+
+#counter
+{
+    height: 100vh;
+}
+#counter .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+  }
+  
+  #counter .box-container .box{
+    margin:2rem 3rem;
+    text-align: center;
+  }
+  
+  #counter .box-container .box i{
+    color:#0188DF;
+    font-size: 4rem;
+  }
+  
+  #counter .box-container .box span{
+    color:#354046;
+    font-size: 1.5rem;
+    display: block;
+    padding:1rem 0;
+  }
+  
+  #counter .box-container .box h3{
+    color:#666;
+  }
+/* counter section ends here */
+
+
+
+
+.contacts{
+    background:#354046;
+  }
+  
+  .contact .heading{
+    color:#fff;
+  }
+  
+  .contacts form{
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+  
+  .contacts form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contacts form .inputBox input, select{
+    height: 3rem;
+    width:49%;
+    padding:0 1rem;
+    margin:0.3rem 0;
+    font-size: 1.2rem;
+    color:#354046;
+  }
+  
+  .contacts form textarea{
+    height:14rem;
+    resize: none;
+    padding:1rem;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+/* review page starts here */
+
+  .review{
+    background:url(./customercare.png), linear-gradient(var(#354046),var(#354046)) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+  
+  /* .review .review-heading{
+    color:#fff;
+  } */
+  
+  .review .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+  }
+  
+  .review .box-container .box{
+    background:#fff;
+    width:18rem;
+    margin:1rem 1rem;
+    padding:1.5rem;
+    position: relative;
+  }
+  
+  .review .box-container .box img{
+    position: absolute;
+    bottom: -7.5rem; left: -1rem;
+    height:5rem;
+    width:5rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .review .box-container .box p{
+    font-size: 1rem;
+    color:var(--black);
+    padding-bottom: 15px;
+  }
+  
+  .review .box-container .box h3{
+    text-align: end;
+    color:#0188df;
+  }
+  
+  .review .box-container .box span{
+    text-align: end;
+    color:var(--black);
+    display: block;
+    font-size: 1rem;
+  }
+  
+  .review .box-container .box::before{
+    content: '';
+    position: absolute;
+    bottom: -1rem; left:.4rem;
+    height:2rem;
+    width:2rem;
+    background:#fff;
+    transform: rotate(45deg);
+  }
+  .review-heading
+  {
+    text-align: center;
+    padding: 10px;
+    font-size: 47px;
+  }
+
+/* review page ends here */
+
+
+#footer-section
+{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
+    z-index: 1;
+}
+.footer-page
+{
+    position: relative;
+    background: black;
+}
+#footer-page h1
+{
+    text-align: center;
+    font-size: 46px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 8px;
+    color: #262626;
+}
+.footer-back
+{
+    display: flex;
+    color: white;
+    margin-left: 308px;
+}
+.footer-back a
+{
+    text-decoration: none;
+}
+.Developer
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 17px;
+    background: rgb(244, 241, 241);
+    color: black;
+    width: 203px;
+    border-radius: 10px;
+    padding-bottom: 14px;
+    
+    cursor: pointer;
+}
+.Developer:hover
+{
+    transform: translateY(-10px);
+}
+.Developer img
+{
+    border-radius: 192px;
+    width: 162px;
+    height: 200px;
+    margin-top: 7px;
+    /* padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 23px;
+    padding-bottom: 23px; */
+}
+.Developer h2
+{
+    font-size: 27px;
+}
+.Developer h3
+{
+    font-size: 23px;
+    padding-bottom: 3px;
+}
+.Developer h5
+{
+    font-size: 17px;
+}
+
+
+footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    z-index: -1;
+}
+.row
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col
+{
+    flex-basis: 18%;
+    padding: 0px;
+}
+.email-id a
+{
+    text-decoration: none;
+}
+.col h3
+{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.col form
+{
+    margin-bottom: 22px;
+}
+.col form input
+{   
+    width: 255px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px;
+}
+.email-id
+{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li
+{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #ccc;
+}
+.social-icon img
+{
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.row .col img
+{
+    height: 35px;
+    padding-bottom: 20px;
+}

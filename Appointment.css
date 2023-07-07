@@ -1,0 +1,91 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.Appoin
+{
+    /* padding-top: 80px; */
+    display: flex;
+    margin-left: 230px;
+    font-size: 20px;
+    line-height: 37px;
+
+}
+.images img
+{
+    width: 87px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.img img
+{
+    width: 100px;
+    padding-top: 10px;
+}
+.doc-details
+{
+    padding-left: 50px;
+}
+.star img
+{
+  width: 19px;
+}
+.star p
+{
+    margin-top: -15px;
+}
+.location img
+{
+    width: 15px;
+}
+.success
+{
+    padding-left: 325px;
+}
+
+.where
+{
+    padding-top: 80px;
+    background: #F6E8E8;
+    padding-left: 74px;
+    padding-bottom: 12px;
+}
+.where div
+{
+    cursor: pointer;
+}
+
+.con img
+{
+    border: 1px solid black;
+    margin: 3px;
+    height: 21px;
+    width: 21px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: -2px;
+}
+.con img:hover{
+    transform: translateY(-2px);
+    border-color: blue;
+}
+.btn-2
+{
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #295366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+.row
+{
+    margin-left: 230px;
+}
